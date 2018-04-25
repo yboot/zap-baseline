@@ -1,7 +1,7 @@
 # Customized Owasp ZAP Dockerfile with support for authentication
 
-FROM owasp/zap2docker-weekly
-MAINTAINER Roderik Eikeboom <roderik.eikeboom@ictu.nl>
+FROM owasp/zap2docker-stable
+MAINTAINER Fabien Thalgott
 
 USER root
 
