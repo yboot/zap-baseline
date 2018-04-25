@@ -552,7 +552,7 @@ def main(argv):
     # Give the passive scanner a chance to finish
     time.sleep(5)
 
-    for url in zap.core.urls():
+	for url in zap.core.urls:
         print url
 
     if (ajax):
@@ -594,12 +594,12 @@ def main(argv):
         time.sleep(5)
 
     # Print out a count of the number of urls
-    num_urls = len(zap.core.urls())
+    num_urls = len(zap.core.urls)
     if (num_urls == 0):
       logging.warning('No URLs found - is the target URL accessible? Local services may not be accessible from the Docker container')
     else:
       if detailed_output:
-        print ('Total of ' + str(len(zap.core.urls())) + ' URLs')
+        print ('Total of ' + str(len(zap.core.urls)) + ' URLs')
       # Retrieve the alerts using paging in case there are lots of them
       st = 0
       pg = 100
