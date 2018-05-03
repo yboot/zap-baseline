@@ -2,7 +2,7 @@
 # Zed Attack Proxy (ZAP) and its related class files.
 #
 # ZAP is an HTTP/HTTPS proxy for assessing web application security.
-#
+# #
 # Copyright 2016 ZAP Development Team
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
